@@ -31,21 +31,6 @@ function seleccionarMascotaJugador() {
     seleccionaMascotaEnemigo()
 }
 
-function ataqueFuego() {
-    ataqueJugador = FUEGO
-    ataqueAleatorioEnemigo()
-}
-
-function ataqueAgua() {
-    ataqueJugador = AGUA
-    ataqueAleatorioEnemigo()
-}
-
-function ataqueTierra() {
-    ataqueJugador = TIERRA
-    ataqueAleatorioEnemigo()
-}
-
 function ataqueAleatorioEnemigo() {
     let ataqueAleatorio = aleatorio(1,3)
 
@@ -56,6 +41,17 @@ function ataqueAleatorioEnemigo() {
     } else {
         ataqueEnemigo = 'TIERRA'
     }
+
+    crearMensaje
+}
+
+function crearMensaje() {
+    let sectionMensajes = document.getElementById('mensajes')
+
+    let parrafo = document.createElement('p')
+    parrafo.innerHTML = 'Tu mascota ataco con ' + ataqueJugador + ', la mascota enemiga ataco con ' + ataqueEnemigo + ' - PENDIENTE'
+
+    sectionMensajes.appendChild(parrafo)
 }
 
 function seleccionaMascotaEnemigo() {
@@ -69,6 +65,22 @@ function seleccionaMascotaEnemigo() {
     } else {
         spanMascotaEnemigo.innerHTML = 'Ratigueya'
     }
+}
+
+
+function ataqueFuego() {
+    ataqueJugador = FUEGO
+    ataqueAleatorioEnemigo()
+}
+
+function ataqueAgua() {
+    ataqueJugador = AGUA
+    ataqueAleatorioEnemigo()
+}
+
+function ataqueTierra() {
+    ataqueJugador = TIERRA
+    ataqueAleatorioEnemigo()
 }
 
 function aleatorio(min, max) {
