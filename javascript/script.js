@@ -69,17 +69,17 @@ function seleccionaMascotaEnemigo() {
 
 
 function ataqueFuego() {
-    ataqueJugador = FUEGO
+    ataqueJugador = 'FUEGO'
     ataqueAleatorioEnemigo()
 }
 
 function ataqueAgua() {
-    ataqueJugador = AGUA
+    ataqueJugador = 'AGUA'
     ataqueAleatorioEnemigo()
 }
 
 function ataqueTierra() {
-    ataqueJugador = TIERRA
+    ataqueJugador = 'TIERRA'
     ataqueAleatorioEnemigo()
 }
 
