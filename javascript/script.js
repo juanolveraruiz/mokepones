@@ -46,7 +46,6 @@ function seleccionaMascotaEnemigo() {
     }
 }
 
-
 function ataqueFuego() {
     ataqueJugador = 'FUEGO'
     ataqueAleatorioEnemigo()
@@ -99,6 +98,16 @@ function combate(){
         vidasJugador--
         spanVidasJugador.innerHTML = vidasJugador
     }
+
+    revisarVidas()
+}
+
+function revisarVidas() {
+    if(vidasEnemigo == 0){
+        crearMensajeFinal("FELICIDADES! GANASTE")
+    } else if (vidasJugador == 0){
+        crearMensajeFinal("PERDISTE :C")
+    }
 }
 
 function crearMensaje(resultado) {
@@ -106,6 +115,14 @@ function crearMensaje(resultado) {
 
     let parrafo = document.createElement('p')
     parrafo.innerHTML = 'Tu mascota ataco con ' + ataqueJugador + ', la mascota enemiga ataco con ' + ataqueEnemigo + ' - ' + resultado 
+    sectionMensajes.appendChild(parrafo)
+}
+
+function crearMensajeFinal(resultadoFinal) {
+    let sectionMensajes = document.getElementById('mensajes')
+
+    let parrafo = document.createElement('p')
+    parrafo.innerHTML = resultadoFinal 
     sectionMensajes.appendChild(parrafo)
 }
 
