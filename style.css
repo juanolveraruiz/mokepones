@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Podkova&family=Work+Sans:wght@400;500;800&display=swap');
+
 html {
-    background-color: black;
+    background-color: #041562;
     color: whitesmoke;
+    font-family: 'Podkova', serif;
 }
 
 #seleccionar-mascota {
@@ -8,4 +11,31 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.titulo {
+    color: aliceblue;
+    width: 310px;
+    height: 50px;
+}
+
+.subtitulo {
+    color: aliceblue;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input {
+    display: none;
 }
