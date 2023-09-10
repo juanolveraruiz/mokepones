@@ -18,6 +18,9 @@ html {
     width: 310px;
     height: 50px;
     font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitulo {
@@ -48,4 +51,19 @@ html {
 
 input {
     display: none;
+}
+
+#boton-mascota {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid white;
+    font-family: 'Podkova', serif;
+    margin-top: 20px;
+}
+#boton-mascota:hover {
+    background-color: aliceblue;
+    color: #041562;
 }
