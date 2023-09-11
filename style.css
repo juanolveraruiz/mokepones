@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Podkova&family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Merriweather:ital@0;1&family=Podkova&family=Work+Sans:wght@400;500;800&display=swap');
 
 html {
     background-color: #041562;
@@ -21,6 +21,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .subtitulo {
