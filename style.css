@@ -69,8 +69,17 @@ input {
 }
 
 #seleccionar-ataque {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.boton-de-ataque {
+    background-color: #11466f;
+    border-radius: 20px;
+    color: aliceblue;
+    border-color: transparent;
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Podkova', serif;
 }
