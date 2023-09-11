@@ -67,3 +67,10 @@ input {
     background-color: aliceblue;
     color: #041562;
 }
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
