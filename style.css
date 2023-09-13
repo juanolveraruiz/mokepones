@@ -84,3 +84,20 @@ input {
     box-sizing: border-box;
     font-family: 'Podkova', serif;
 }
+
+#mensajes {
+    width: 300px;
+    background-color: greenyellow;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: none;
+    color: #041562;
+    font-family: 'Podkova', serif;
+}
