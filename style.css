@@ -65,6 +65,9 @@ input {
     margin-top: 20px;
 }
 #boton-mascota:hover {
+    box-shadow: 10px 10px 0px #ff96ad;
+    top: 5px;
+    left: -5px;
     background-color: aliceblue;
     color: #041562;
 }
