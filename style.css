@@ -104,3 +104,8 @@ input {
     color: #041562;
     font-family: 'Podkova', serif;
 }
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
