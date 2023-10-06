@@ -109,8 +109,11 @@ input {
 .ataques {
     display: grid;
     grid-template-columns: 100px 100px;
-    justify-content: center;
-    align-items: center;
+}
+
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 360px) {
