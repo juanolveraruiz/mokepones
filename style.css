@@ -97,6 +97,7 @@ input {
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: #041562;
 }
 
 #boton-reiniciar {
@@ -108,4 +109,6 @@ input {
 .ataques {
     display: grid;
     grid-template-columns: 100px 100px;
+    justify-content: center;
+    align-items: center;
 }
