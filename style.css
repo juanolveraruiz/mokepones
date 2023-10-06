@@ -86,6 +86,8 @@ input {
     padding: 10px;
     box-sizing: border-box;
     font-family: 'Podkova', serif;
+    display: flex;
+    
 }
 
 #mensajes {
@@ -116,7 +118,7 @@ input {
     margin-bottom: 0px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 860px) {
     .tarjetas {
         flex-direction: column;
     }
