@@ -86,6 +86,8 @@ input {
     padding: 10px;
     box-sizing: border-box;
     font-family: 'Podkova', serif;
+    display: flex;
+    
 }
 
 #mensajes {
