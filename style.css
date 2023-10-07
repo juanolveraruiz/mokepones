@@ -100,6 +100,8 @@ input {
     align-items: center;
     flex-direction: column;
     color: #041562;
+    font-size: 30px;
+    text-align: center;
 }
 
 #boton-reiniciar {
@@ -136,5 +138,12 @@ input {
     }
     .tarjeta-de-mokepon img {
         width: 100px;
+    }
+    .boton-de-ataque {
+        width: 110;
+        height: 70px;
+        font-size: 18px;
+        margin: 10px;
+        display: inline;
     }
 }
