@@ -116,8 +116,23 @@ input {
     margin-bottom: 0px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 860px) {
     .tarjetas {
         flex-direction: column;
+    }
+    .tarjeta-de-mokepon {
+        width: 250px;
+        height: 100px;
+        background: #11466f;
+        padding: 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+    .tarjeta-de-mokepon img {
+        width: 100px;
     }
 }
