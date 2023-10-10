@@ -29,7 +29,7 @@ html {
     font-size: 20px;
 }
 
-.tarjetas {
+.tarjetas, .tarjetas-ataques {
     display: flex;
     gap: 10px;
 }
@@ -145,5 +145,8 @@ input {
         font-size: 18px;
         margin: 10px;
         display: inline;
+    }
+    .tarjetas, .tarjetas-ataques {
+        flex-direction: column;
     }
 }
