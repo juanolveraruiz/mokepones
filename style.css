@@ -39,6 +39,7 @@ html {
     height: 100px;
     background: #11466f;
     padding: 10px;
+    margin: 10px;
     box-sizing: border-box;
     border-radius: 20px;
     display: flex;
@@ -48,6 +49,14 @@ html {
 
 .tarjeta-de-mokepon img {
     width: 80px;
+}
+
+.tarjeta-de-mokepon:hover {
+    box-shadow: 10px 10px 0px #11466f;
+    top: 5px;
+    left: -5px;
+    background-color: #041562;
+    color: white;
 }
 
 .tarjeta-de-mokepon.selected {
