@@ -50,6 +50,11 @@ html {
     width: 80px;
 }
 
+.tarjeta-de-mokepon.selected {
+    background-color: aquamarine;
+    border: 1px solid white;
+}
+
 input {
     display: none;
 }
