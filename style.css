@@ -55,11 +55,11 @@ html {
     box-shadow: 10px 10px 0px #11466f;
     top: 5px;
     left: -5px;
-    background-color: #041562;
-    color: white;
+    background-color: white;
+    color: #041562;
 }
 
-.tarjeta-de-mokepon.selected {
+.tarjeta-de-mokepon:active {
     background-color: aquamarine;
     border: 1px solid white;
 }
