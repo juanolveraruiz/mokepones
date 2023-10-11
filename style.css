@@ -102,6 +102,7 @@ input {
     font-family: 'Podkova', serif;
     margin-top: 20px;
 }
+
 #boton-mascota:hover {
     box-shadow: 10px 10px 0px #45FFCA;
     top: 5px;
@@ -127,9 +128,19 @@ input {
     display: flex;
 }
 
-.boton-de-ataque:hover {
-    background-color: greenyellow;
-    color: #041562;
+#boton-fuego:hover {
+    background-color: #FD8D14;
+    color: #c5390b;
+}
+
+#boton-agua:hover {
+    background-color: #98E4FF;
+    color: #225bb0;
+}
+
+#boton-tierra:hover {
+    background-color: #82CD47;
+    color: #0a610a;
 }
 
 .boton-de-ataque:disabled {
