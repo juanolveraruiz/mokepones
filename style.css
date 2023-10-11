@@ -59,14 +59,9 @@ html {
     color: #041562;
 }
 
-input#hipodoge:checked {
-    background-color: aquamarine;
-    border: 1px solid white;
-}
-
-input:checked + .tarjeta-hipodoge {
-    background-color: aquamarine;
-    border: 1px solid white;
+input:checked + .tarjeta-de-mokepon {
+    background-color: #FFFAF4;
+    border: 1px solid black;
     animation: highlight 1s;
   }
   
