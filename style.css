@@ -59,7 +59,7 @@ html {
     color: #041562;
 }
 
-input:checked {
+input:checked + .tarjeta-hipodoge {
     background-color: aquamarine;
     border: 1px solid white;
 }
