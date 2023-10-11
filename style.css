@@ -64,7 +64,7 @@ input#hipodoge:checked {
     border: 1px solid white;
 }
 
-input:checked + .tarjeta-de-mokepon {
+input:checked + .tarjeta-hipodoge {
     background-color: aquamarine;
     border: 1px solid white;
     animation: highlight 1s;
