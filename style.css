@@ -64,6 +64,30 @@ html {
     border: 1px solid white;
 }
 
+.tarjeta-hipodoge:hover {
+    box-shadow: 10px 10px 0px #6499E9;
+    top: 5px;
+    left: -5px;
+    background-color: #98E4FF;
+    color: #041562;
+}
+
+.tarjeta-capipepo:hover {
+    box-shadow: 10px 10px 0px #379237;
+    top: 5px;
+    left: -5px;
+    background-color: #82CD47;
+    color: #041562;
+}
+
+.tarjeta-ratigueya:hover {
+    box-shadow: 10px 10px 0px #F94C10;
+    top: 5px;
+    left: -5px;
+    background-color: #FD8D14;
+    color: #041562;
+}
+
 input {
     display: none;
 }
@@ -79,7 +103,7 @@ input {
     margin-top: 20px;
 }
 #boton-mascota:hover {
-    box-shadow: 10px 10px 0px greenyellow;
+    box-shadow: 10px 10px 0px #45FFCA;
     top: 5px;
     left: -5px;
     background-color: aliceblue;
@@ -101,6 +125,11 @@ input {
     box-sizing: border-box;
     font-family: 'Podkova', serif;
     display: flex;
+}
+
+.boton-de-ataque:hover {
+    background-color: greenyellow;
+    color: #041562;
 }
 
 .boton-de-ataque:disabled {
