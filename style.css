@@ -59,7 +59,7 @@ html {
     color: #041562;
 }
 
-.tarjeta-de-mokepon:active {
+input:checked {
     background-color: aquamarine;
     border: 1px solid white;
 }
