@@ -102,6 +102,10 @@ input {
     display: none;
 }
 
+input:checked + label {
+    background-color: #041562;
+}
+
 #boton-mascota {
     width: 100px;
     height: 40px;
