@@ -51,29 +51,6 @@ html {
     width: 80px;
 }
 
-.tarjeta-de-mokepon:hover {
-    box-shadow: 10px 10px 0px #11466f;
-    top: 5px;
-    left: -5px;
-    background-color: white;
-    color: #041562;
-}
-
-input:checked + .tarjeta-de-mokepon {
-    background-color: #FFFAF4;
-    border: 1px solid black;
-    animation: highlight 1s;
-  }
-  
-@keyframes highlight {
-from {
-    background-color: #11466f;
-}
-to {
-    background-color: aquamarine;
-}
-}
-
 .tarjeta-hipodoge:hover {
     box-shadow: 10px 10px 0px #6499E9;
     top: 5px;
