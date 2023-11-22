@@ -78,9 +78,33 @@ html {
 input {
     display: none;
 }
-
+/*
 input:checked + label {
     background-color: #041562;
+}*/
+
+input:checked + .tarjeta-hipodoge {
+    box-shadow: 10px 10px 0px #6499E9;
+    top: 5px;
+    left: -5px;
+    background-color: #98E4FF;
+    color: #041562;
+}
+
+input:checked + .tarjeta-capipepo {
+    box-shadow: 10px 10px 0px #379237;
+    top: 5px;
+    left: -5px;
+    background-color: #82CD47;
+    color: #041562;
+}
+
+input:checked + .tarjeta-ratigueya {
+    box-shadow: 10px 10px 0px #F94C10;
+    top: 5px;
+    left: -5px;
+    background-color: #FD8D14;
+    color: #041562;
 }
 
 #boton-mascota {
