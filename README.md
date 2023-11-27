@@ -1,4 +1,4 @@
-¡[Hipodoge, Capipepo y Ratigueya.](/assets/mokepones-banner.png)
+![Hipodoge, Capipepo y Ratigueya.](/assets/mokepones-banner.png)
 
 # mokepones
 
