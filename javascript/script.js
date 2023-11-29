@@ -12,6 +12,15 @@ let inputCapipepo = document.getElementById("capipepo");
 let inputRatigueya = document.getElementById("ratigueya");
 let spanMascotaJugador = document.getElementById("mascota-jugador");
 
+let spanMascotaEnemigo = document.getElementById("mascota-enemigo");
+
+let spanVidasJugador = document.getElementById("vidas-jugador");
+let spanVidasEnemigo = document.getElementById("vidas-enemigo");
+
+let sectionMensajes = document.getElementById("resultado");
+let ataqueDelJugador = document.getElementById("ataque-del-jugador");
+let ataqueDelEnemigo = document.getElementById("ataque-del-enemigo");
+
 let ataqueJugador;
 let ataqueEnemigo;
 let vidasJugador = 3;
@@ -63,7 +72,7 @@ function seleccionarMascotaJugador() {
 
 function seleccionaMascotaEnemigo() {
   let mascotaAleatorio = aleatorio(1, 3);
-  let spanMascotaEnemigo = document.getElementById("mascota-enemigo");
+
 
   if (mascotaAleatorio == 1) {
     spanMascotaEnemigo.innerHTML = "Hipodoge";
@@ -104,8 +113,7 @@ function ataqueAleatorioEnemigo() {
 }
 
 function combate() {
-  let spanVidasJugador = document.getElementById("vidas-jugador");
-  let spanVidasEnemigo = document.getElementById("vidas-enemigo");
+
 
   if (ataqueEnemigo == ataqueJugador) {
     crearMensaje("EMPATE");
@@ -139,9 +147,7 @@ function revisarVidas() {
 }
 
 function crearMensaje(resultado) {
-  let sectionMensajes = document.getElementById("resultado");
-  let ataqueDelJugador = document.getElementById("ataque-del-jugador");
-  let ataqueDelEnemigo = document.getElementById("ataque-del-enemigo");
+
 
   let nuevoAtaqueDelJugador = document.createElement("p");
   let nuevoAtaqueDelEnemigo = document.createElement("p");
@@ -158,18 +164,18 @@ function crearMensaje(resultado) {
 }
 
 function crearMensajeFinal(resultadoFinal) {
-  let sectionReiniciar = document.getElementById("reiniciar");
+  
   sectionReiniciar.style.display = "block";
 
-  let sectionMensajes = document.getElementById("resultado");
+  
 
   sectionMensajes.innerHTML = resultadoFinal;
 
-  let botonFuego = document.getElementById("boton-fuego");
+  
   botonFuego.disabled = true;
-  let botonAgua = document.getElementById("boton-agua");
+  
   botonAgua.disabled = true;
-  let botonTierra = document.getElementById("boton-tierra");
+  
   botonTierra.disabled = true;
 }
 
