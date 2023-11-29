@@ -1,42 +1,51 @@
+let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque");
+let sectionReiniciar = document.getElementById("reiniciar");
+let botonMascota = document.getElementById("boton-mascota");
+let botonFuego = document.getElementById("boton-fuego");
+let botonAgua = document.getElementById("boton-agua");
+let botonTierra = document.getElementById("boton-tierra");
+let botonReiniciar = document.getElementById("boton-reiniciar");
+
+let sectionSeleccionarMascota = document.getElementById("seleccionar-mascota");
+let inputHipodoge = document.getElementById("hipodoge");
+let inputCapipepo = document.getElementById("capipepo");
+let inputRatigueya = document.getElementById("ratigueya");
+let spanMascotaJugador = document.getElementById("mascota-jugador");
+
 let ataqueJugador;
 let ataqueEnemigo;
 let vidasJugador = 3;
 let vidasEnemigo = 3;
 
 function iniciarJuego() {
-  let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque");
+  
   sectionSeleccionarAtaque.style.display = "none";
 
-  let sectionReiniciar = document.getElementById("reiniciar");
+  
   sectionReiniciar.style.display = "none";
 
-  let botonMascota = document.getElementById("boton-mascota");
+  
   botonMascota.addEventListener("click", seleccionarMascotaJugador);
 
-  let botonFuego = document.getElementById("boton-fuego");
+  
   botonFuego.addEventListener("click", ataqueFuego);
-  let botonAgua = document.getElementById("boton-agua");
+  
   botonAgua.addEventListener("click", ataqueAgua);
-  let botonTierra = document.getElementById("boton-tierra");
+  
   botonTierra.addEventListener("click", ataqueTierra);
 
-  let botonReiniciar = document.getElementById("boton-reiniciar");
+  
   botonReiniciar.addEventListener("click", reiniciarJuego);
 }
 
 function seleccionarMascotaJugador() {
-  let sectionSeleccionarMascota = document.getElementById(
-    "seleccionar-mascota"
-  );
+
   sectionSeleccionarMascota.style.display = "none";
 
-  let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque");
+
   sectionSeleccionarAtaque.style.display = "flex";
 
-  let inputHipodoge = document.getElementById("hipodoge");
-  let inputCapipepo = document.getElementById("capipepo");
-  let inputRatigueya = document.getElementById("ratigueya");
-  let spanMascotaJugador = document.getElementById("mascota-jugador");
+
 
   if (inputHipodoge.checked) {
     spanMascotaJugador.innerHTML = "Hipodoge";
