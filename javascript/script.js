@@ -29,29 +29,17 @@ let vidasEnemigo = 3;
 function iniciarJuego() {
   
   sectionSeleccionarAtaque.style.display = "none";
-
-  
   sectionReiniciar.style.display = "none";
-
-  
   botonMascota.addEventListener("click", seleccionarMascotaJugador);
-
-  
   botonFuego.addEventListener("click", ataqueFuego);
-  
   botonAgua.addEventListener("click", ataqueAgua);
-  
   botonTierra.addEventListener("click", ataqueTierra);
-
-  
   botonReiniciar.addEventListener("click", reiniciarJuego);
 }
 
 function seleccionarMascotaJugador() {
 
   sectionSeleccionarMascota.style.display = "none";
-
-
   sectionSeleccionarAtaque.style.display = "flex";
 
 
@@ -72,8 +60,6 @@ function seleccionarMascotaJugador() {
 
 function seleccionaMascotaEnemigo() {
   let mascotaAleatorio = aleatorio(1, 3);
-
-
   if (mascotaAleatorio == 1) {
     spanMascotaEnemigo.innerHTML = "Hipodoge";
   } else if (mascotaAleatorio == 2) {
@@ -155,7 +141,6 @@ function crearMensaje(resultado) {
   sectionMensajes.innerHTML = resultado;
   nuevoAtaqueDelJugador.innerHTML = ataqueJugador;
   nuevoAtaqueDelEnemigo.innerHTML = ataqueEnemigo;
-
   ataqueDelJugador.appendChild(nuevoAtaqueDelJugador);
   ataqueDelEnemigo.appendChild(nuevoAtaqueDelEnemigo);
   /* let parrafo = document.createElement('p')
@@ -166,16 +151,9 @@ function crearMensaje(resultado) {
 function crearMensajeFinal(resultadoFinal) {
   
   sectionReiniciar.style.display = "block";
-
-  
-
   sectionMensajes.innerHTML = resultadoFinal;
-
-  
   botonFuego.disabled = true;
-  
   botonAgua.disabled = true;
-  
   botonTierra.disabled = true;
 }
 
