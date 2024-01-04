@@ -50,6 +50,14 @@ hipodoge.ataques.push(
   { nombre: '🌱', id: 'boton-tierra'},
 )
 
+capipepo.ataques.push(
+  { nombre: '🌱', id: 'boton-tierra'},
+  { nombre: '🌱', id: 'boton-tierra'},
+  { nombre: '🌱', id: 'boton-tierra'},
+  { nombre: '💦', id: 'boton-agua'},
+  { nombre: '🔥', id: 'boton-fuego'},
+)
+
 function iniciarJuego() {
   
   sectionSeleccionarAtaque.style.display = "none";
