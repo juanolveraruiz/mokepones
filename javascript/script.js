@@ -58,6 +58,14 @@ capipepo.ataques.push(
   { nombre: '🔥', id: 'boton-fuego'},
 )
 
+ratigueya.ataques.push(
+  { nombre: '🔥', id: 'boton-fuego'},
+  { nombre: '🔥', id: 'boton-fuego'},
+  { nombre: '🔥', id: 'boton-fuego'},
+  { nombre: '🌱', id: 'boton-tierra'},
+  { nombre: '💦', id: 'boton-agua'},
+)
+
 function iniciarJuego() {
   
   sectionSeleccionarAtaque.style.display = "none";
