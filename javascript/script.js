@@ -24,6 +24,7 @@ const ataqueDelEnemigo = document.getElementById("ataque-del-enemigo");
 let mokepones = []
 let ataqueJugador;
 let ataqueEnemigo;
+let opcionMokepones;
 let vidasJugador = 3;
 let vidasEnemigo = 3;
 
@@ -66,7 +67,13 @@ ratigueya.ataques.push(
   { nombre: '💦', id: 'boton-agua'},
 )
 
+mokepones.push(hipodoge,capipepo,ratigueya)
+
 function iniciarJuego() {
+
+  mokepones.forEach((mokepon) => {
+    opcionMokepones
+  })
   
   sectionSeleccionarAtaque.style.display = "none";
   sectionReiniciar.style.display = "none";
