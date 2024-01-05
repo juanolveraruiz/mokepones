@@ -72,7 +72,9 @@ mokepones.push(hipodoge,capipepo,ratigueya)
 function iniciarJuego() {
 
   mokepones.forEach((mokepon) => {
-    opcionMokepones
+    opcionMokepones = `
+    
+    `
   })
   
   sectionSeleccionarAtaque.style.display = "none";
