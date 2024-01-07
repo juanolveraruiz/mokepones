@@ -20,6 +20,7 @@ const spanVidasEnemigo = document.getElementById("vidas-enemigo");
 const sectionMensajes = document.getElementById("resultado");
 const ataqueDelJugador = document.getElementById("ataque-del-jugador");
 const ataqueDelEnemigo = document.getElementById("ataque-del-enemigo");
+const contenedorTarjetas = document.getElementById("contenedorTarjetas")
 
 let mokepones = []
 let ataqueJugador;
@@ -82,6 +83,7 @@ function iniciarJuego() {
           />
         </label>
     `
+  contenedorTarjetas.innerHTML += opcionMokepones
   })
   
   sectionSeleccionarAtaque.style.display = "none";
