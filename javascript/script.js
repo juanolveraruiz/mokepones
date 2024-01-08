@@ -7,9 +7,6 @@ const botonTierra = document.getElementById("boton-tierra")
 const botonReiniciar = document.getElementById("boton-reiniciar")
 
 const sectionSeleccionarMascota = document.getElementById("seleccionar-mascota")
-const inputHipodoge = document.getElementById("hipodoge")
-const inputCapipepo = document.getElementById("capipepo")
-const inputRatigueya = document.getElementById("ratigueya")
 const spanMascotaJugador = document.getElementById("mascota-jugador")
 
 const spanMascotaEnemigo = document.getElementById("mascota-enemigo")
@@ -26,6 +23,9 @@ let mokepones = []
 let ataqueJugador
 let ataqueEnemigo
 let opcionMokepones
+let inputHipodoge 
+let inputCapipepo
+let inputRatigueya
 let vidasJugador = 3
 let vidasEnemigo = 3
 
@@ -84,6 +84,9 @@ function iniciarJuego() {
         </label>
     `
   contenedorTarjetas.innerHTML += opcionMokepones
+  let inputHipodoge = document.getElementById("Hipodoge")
+  let inputCapipepo = document.getElementById("Capipepo")
+  let inputRatigueya = document.getElementById("Ratigueya")
   })
   
   sectionSeleccionarAtaque.style.display = "none"
