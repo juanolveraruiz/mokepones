@@ -1,5 +1,5 @@
 ![Hipodoge, Capipepo y Ratigueya.](/assets/mokepones-banner.png)
 
-# ¡Mokepon!
+# <div align="center">¡Mokepon!</div>
 
 ---
